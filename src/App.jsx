@@ -5,7 +5,7 @@ import Accordion from './components/Accordion'
 const App = () => {
   return (
     <>
-      {/* <Tabs /> */}
+      <Tabs />
       <Accordion />
     </>
   )
