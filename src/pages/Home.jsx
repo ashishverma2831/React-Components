@@ -6,16 +6,16 @@ const Home = () => {
   return (
     <>
       <section className='flex'>
-        <div className='bg-red-500 w-[450px]'>
+        {/* <div className='bg-red-500 w-[450px]'>
           <Sidebar />
-        </div>
+        </div> */}
         <div className=' w-full'>
           <div>
             <Header />
           </div>
-          <div className='bg-yellow-500'>
+          {/* <div className='bg-yellow-500'>
             <p>hello</p>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
