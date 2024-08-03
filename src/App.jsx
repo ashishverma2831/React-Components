@@ -4,6 +4,8 @@ import Accordion from './components/Accordion'
 import Navbar from './components/Navbar'
 import ForgetPassword from './pages/ForgetPassword'
 import Home from './pages/Home'
+import Card from './components/Card'
+import CardContainer from './components/CardContainer'
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
       {/* <Accordion /> */}
       {/* <Navbar /> */}
       {/* <ForgetPassword /> */}
-      <Home />
+      {/* <Home /> */}
+      {/* <Card /> */}
+      <CardContainer />
     </>
   )
 }
