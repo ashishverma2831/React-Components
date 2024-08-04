@@ -6,6 +6,7 @@ import ForgetPassword from './pages/ForgetPassword'
 import Home from './pages/Home'
 import Card from './components/Card'
 import CardContainer from './components/CardContainer'
+import Pagination from './pages/Pagination'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <ForgetPassword /> */}
       {/* <Home /> */}
       {/* <Card /> */}
-      <CardContainer />
+      {/* <CardContainer /> */}
+      <Pagination />
     </>
   )
 }

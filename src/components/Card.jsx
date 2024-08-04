@@ -1,10 +1,15 @@
 import React from 'react'
+import 'aos/dist/aos.css'
+import AOS from 'aos'
 
-const Card = () => {
+const Card = ({index,animation}) => {
+
+    AOS.init();
+
   return (
     <>
-        <div className='bg-red-300 h-[300px] w-full flex justify-center items-center rounded'>
-            <p>#1</p>
+        <div data-aos={animation} className='bg-red-300 h-[100px] w-full flex justify-center items-center rounded'>
+            <p>#{index}</p>
         </div>
     </>
   )
