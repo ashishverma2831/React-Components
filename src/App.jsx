@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Card from './components/Card'
 import CardContainer from './components/CardContainer'
 import Pagination from './pages/Pagination'
+import NewRouter from './routers/NewRouter'
 
 const App = () => {
   return (
@@ -18,7 +19,9 @@ const App = () => {
       {/* <Home /> */}
       {/* <Card /> */}
       {/* <CardContainer /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+
+      <NewRouter />
     </>
   )
 }
